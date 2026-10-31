@@ -15,12 +15,12 @@ client.on('ready', async () => {
   console.log(`${client.user.username} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId(process.env.APPLICATION_ID || '156571652941152849')
+    .setApplicationId(process.env.APPLICATION_ID || '1565935843833815130')
     .setType('STREAMING')
     .setURL('https://twitch.tv')
-    .setDetails(process.env.DETAILS || '╭─────────── .o. ⋆ 𓍼 ─╮ 𝗜 𝗟𝗢𝗩𝗘 𝗛𝗜𝗠 𝗦𝗢 𝗠𝗨𝗖𝗛')
-    .setState(process.env.STATE || '╰─ 𓍼 ⋆ .o. ───────────╯')
-    .setAssetsLargeImage(process.env.LARGE_IMAGE_KEY || 'https://prodia.xyz');
+    .setDetails(process.env.DETAILS || '⊹₊˚‧︵‿₊୨𖹭୧₊‿︵‧˚₊⊹')
+    .setState(process.env.STATE || '🇮​ ​🇱​​🇴​​🇻​​🇪​ ​🇭​​🇮​​🇲​ ​🇸​​🇴​ ​🇲​​🇺​​🇨​​🇭')
+    .setAssetsLargeImage(process.env.LARGE_IMAGE_KEY || 'https://pin.it/Z9cTxB0Dk');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "online" });
