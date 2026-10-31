@@ -16,8 +16,8 @@ client.on('ready', async () => {
 
   const r = new Discord.RichPresence()
     .setApplicationId(process.env.APPLICATION_ID || '1565935843833815130')
-    .setType('STREAMING')
-    .setURL('https://twitch.tv')
+    .setType('PLAYING')
+    .setStartTimestamp(1773181421000)
     .setDetails(process.env.DETAILS || '⊹₊˚‧︵‿₊୨𖹭୧₊‿︵‧˚₊⊹')
     .setState(process.env.STATE || '🇮​ ​🇱​​🇴​​🇻​​🇪​ ​🇭​​🇮​​🇲​ ​🇸​​🇴​ ​🇲​​🇺​​🇨​​🇭')
     .setAssetsLargeImage(process.env.LARGE_IMAGE_KEY || 'https://pin.it/Z9cTxB0Dk');
